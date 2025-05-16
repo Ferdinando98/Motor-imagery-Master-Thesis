@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAction.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabActionFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabActionGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabActionResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseAction.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseActionFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseActionGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseActionResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabAndReleaseResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_GrabResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveAction.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveActionFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveActionGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveActionResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_MoveResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseAction.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseActionFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseActionGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseActionResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseFeedback.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseGoal.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/_ReleaseResult.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/msg/__init__.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/srv/__init__.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/srv/_sendInitPose.py"
+  "/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel/lib/python3/dist-packages/motor_imagery/srv/_sendInitState.py"
+  "CMakeFiles/motor_imagery_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/motor_imagery_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

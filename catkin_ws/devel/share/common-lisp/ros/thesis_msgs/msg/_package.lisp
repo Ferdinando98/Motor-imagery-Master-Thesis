@@ -1,0 +1,19 @@
+(cl:defpackage thesis_msgs-msg
+  (:use )
+  (:export
+   "<ANGULARVELOCITY>"
+   "ANGULARVELOCITY"
+   "<DESIREDWAYPOINT>"
+   "DESIREDWAYPOINT"
+   "<ERROR>"
+   "ERROR"
+   "<FINGERJOINTS>"
+   "FINGERJOINTS"
+   "<LINEARVELOCITY>"
+   "LINEARVELOCITY"
+   "<ORIENTATION>"
+   "ORIENTATION"
+   "<POSITION>"
+   "POSITION"
+  ))
+

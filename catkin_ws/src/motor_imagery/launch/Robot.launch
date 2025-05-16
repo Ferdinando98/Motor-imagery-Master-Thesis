@@ -1,0 +1,13 @@
+<launch>
+
+    <rosparam file="$(find motor_imagery)/config/config.yaml"/>
+
+    <node pkg="motor_imagery" type="controller" name="controller"/>
+    <node pkg="motor_imagery" type="planner" name="planner"/>
+    <node pkg="motor_imagery" type="motor_image_simulator" name="motor_image_simulator"/>
+
+
+    <node pkg="plotjuggler" type="plotjuggler" name="plotjuggler" args="-n -l $(find motor_imagery)/plotjuggler/plotLayout.xml"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find motor_imagery)/rviz/rvizConfig.rviz"/>
+
+</launch>

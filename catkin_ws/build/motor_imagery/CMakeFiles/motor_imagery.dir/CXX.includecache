@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lairobotics/biom_ricciardi_tesi/catkin_ws/src/motor_imagery/include/bci_filter/BCIFilter.h
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Dense
+-
+iostream
+-
+string
+-
+vector
+-
+
+/home/lairobotics/biom_ricciardi_tesi/catkin_ws/src/motor_imagery/src/BCIFilter.cpp
+BCIFilter.h
+/home/lairobotics/biom_ricciardi_tesi/catkin_ws/src/motor_imagery/src/BCIFilter.h
+

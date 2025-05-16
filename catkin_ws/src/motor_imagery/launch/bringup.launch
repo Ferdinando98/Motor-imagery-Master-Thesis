@@ -1,0 +1,18 @@
+<launch>
+
+    <rosparam file="$(find motor_imagery)/config/config.yaml"/>
+
+    <node pkg="motor_image" type="initial_setup_server2" name="initial_setup_server2"/>
+    <node pkg="motor_imagery" type="robot" name="robot"/>
+    <node pkg="motor_imagery" type="controller" name="controller"/>
+    <node pkg="motor_imagery" type="planner" name="planner"/>
+   <node pkg="motor_imagery" type="motor_image_simulator" name="motor_image_simulator"/>
+   <node pkg="motor_imagery" type="tcp_client.py" name="tcp_client" output="screen"/>
+   
+
+    <include file="$(find kinova_bringup)/launch/kinova_robot.launch"/>
+
+    <node pkg="plotjuggler" type="plotjuggler" name="plotjuggler" args="-n -l $(find motor_imagery)/plotjuggler/plotLayout.xml"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find motor_imagery)/rviz/rvizConfig.rviz"/>
+
+</launch>

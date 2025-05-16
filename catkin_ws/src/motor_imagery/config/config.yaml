@@ -1,0 +1,41 @@
+# =============== INITIAL JOINT STATE ===============
+JOINT_1: 2.912
+JOINT_2: 0.427
+JOINT_3: 0.665
+JOINT_4: 1.262
+JOINT_5: -0.323
+JOINT_6: 0.943
+JOINT_7: 5.240
+
+# =============== ROBOT PARAMETERS ===============
+GAIN: 2
+SAMPLING_TIME: 0.01
+
+# =============== MANIPULABILITY PARAMETERS (NOT USED) ===============
+ENABLE_MANIPULABILITY: false
+DERIVATIVE_STEP: 0.00001
+NULL_GAIN: 20
+
+# =============== PLANNER - SSVEP PARAMETERS ===============
+TIME_TO_GRAB: 50
+TIME_TO_RELEASE: 50
+TIME_DELAY: 0.5
+APPROACH_DISTANCE: 0.1
+ZONE1_THRESHOLD: 0.3
+ZONE2_THRESHOLD: 0.6
+
+# =============== PLANNER - MOTOR IMAGERY PARAMETERS ===============
+DISPLACEMENT: 0.1
+
+
+# ============== BCIFilter - MOTOR IMAGE SIM PARAMITERS =============
+/omega1: 0.3
+/psi1: 0.2
+/phi1: 0.7
+/xi1: 2
+
+/omega2: 0.3
+/psi2: 0.1
+/phi2: 0.8
+/xi2: 1
+

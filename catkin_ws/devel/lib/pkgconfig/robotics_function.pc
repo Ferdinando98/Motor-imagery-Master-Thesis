@@ -1,0 +1,8 @@
+prefix=/home/lairobotics/biom_ricciardi_tesi/catkin_ws/devel
+
+Name: robotics_function
+Description: Description of robotics_function
+Version: 0.0.0
+Cflags: -I/home/lairobotics/biom_ricciardi_tesi/catkin_ws/src/robotics_function/include
+Libs: -L${prefix}/lib -lrobotics_function
+Requires: geometry_msgs roscpp sensor_msgs std_msgs tf

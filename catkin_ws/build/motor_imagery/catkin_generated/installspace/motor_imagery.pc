@@ -1,0 +1,8 @@
+prefix=/home/lairobotics/biom_ricciardi_tesi/catkin_ws/install
+
+Name: motor_imagery
+Description: Description of motor_imagery
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmotor_imagery
+Requires: robotics_function roscpp sensor_msgs std_msgs tf thesis_msgs
